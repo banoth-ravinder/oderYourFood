@@ -15,6 +15,7 @@
   * [Step 4](#step-4)
   * [Notes](#notes)
 * [Submission](#submission)
+* [FAQs](#faqs)
 
 <!-- tocstop -->
 
@@ -84,4 +85,10 @@ and click submit.
 
 ## Submission
 
-* Submit a working link of your repository (github/ gitlab/ bitbucket, etc...)
+* Submit a working link of your code repository (github/ gitlab/ bitbucket, etc...)
+* Submit a link of the deployed app (github.io/ now/ surge, etc...)
+
+## FAQs
+
+* Library Usage
+  * You are free to use any 3rd party library you want, although we might ask for justification.
