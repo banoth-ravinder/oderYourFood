@@ -1,6 +1,6 @@
 # Zenport React Assignment
 
-| This assignment is aimed to help us assess your `React` skills.
+This assignment is aimed to help us assess your `React` skills.
 
 <!-- toc -->
 
