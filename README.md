@@ -24,14 +24,14 @@
 ### Must
 
 * Use `React` (preferred `Next.js`)
-* Use ES6 +
-* Write Unit Tests (any testing library, but preferred `jest`)
+* Use ES6+
+* Write unit tests (any testing library, but preferred `jest`)
 * Make it responsive / mobile friendly
 
 ### Optional
 
 * Use a type system (preferred `Typescript` or `flow`)
-* Write Integration Tests
+* Write integration tests
 * Use styled components (preferred `css modules` or `emotion`)
 * Save form values to state or context
 
