@@ -23,27 +23,29 @@
 
 ### Must
 
-* Use `React`
+* Use `React` (preferred `Next.js`)
 * Use ES6 +
 * Write Unit Tests (any testing library, but preferred `jest`)
+* Make it responsive / mobile friendly
 
 ### Optional
 
-* Use a type system (preferred `flow`)
+* Use a type system (preferred `Typescript` or `flow`)
 * Write Integration Tests
-* If needed use a CSS in JS library (preferred `emotion`)
+* Use styled components (preferred `css modules` or `emotion`)
+* Save form values to state or context
 
 ## Setup
 
 As this test is to evaluate basic `React` skills, we are not be focusing on tooling setup (webpack, babel, etc...).
 
-So feel free to use [create react app](https://github.com/facebookincubator/create-react-app) to jump start your development, although if not comfortable custom setup is also welcomed.
+So feel free to use [create react app](https://github.com/facebookincubator/create-react-app) or [create next app](https://nextjs.org/docs/api-reference/create-next-app) to jump start your development, although if not comfortable custom setup is also welcomed.
 
 ## Description
 
 We want to make multi step form. This form is aimed to help user pre order food from restaurants, the data for restaurants and food items and is provided in the [data](./data) folder.
 
-Wire frames for the form are provided in the [wire frames](./wireframes) folder.
+Wire frames for the form are provided in the [wireframes](./wireframes) folder.
 
 The wire frames are just guide lines, feel free to alter the styling.
 
