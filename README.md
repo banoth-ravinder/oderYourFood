@@ -43,46 +43,28 @@ So feel free to use [create react app](https://github.com/facebookincubator/crea
 
 ## Description
 
-We want to make multi step form. This form is aimed to help user pre order food from restaurants, the data for restaurants and food items and is provided in the [data](./data) folder.
+We want to make multi step form. This form is aimed to help user order food from a restaurant. The wireframes are available [at this link] (https://www.figma.com/file/RsvCqxq86NkWDfW01G6gYa/Coding-Challenge?node-id=1%3A2) or in the wireframes folder.
 
-Wire frames for the form are provided in the [wireframes](./wireframes) folder.
-
-The wire frames are just guide lines, feel free to alter the styling.
+Data is provided in the [data](./data) folder and images are provided in the [images](./images) folder. Fonts used are available at [Google Fonts](https://fonts.google.com/), and any additional icons are available at [Font Awesome](https://fontawesome.com/).
 
 ### Step 1
 
-* Users select Meal Category (breakfast, lunch or dinner).
-* They also need to input number of people (maximum 10)
-
-Both of these should be required field.
+* Users inputs the number of people (maximum 10)
 
 ### Step 2
 
-* Users select appropriate restaurants that provides meals based on selection in first step.
-
-This is also a required field.
+* User adds dishes to their order
+* Come up with a way to add items to the right person
 
 ### Step 3
 
-* User selects dishes they want to pre order based on the meal and restaurant they selected in first two steps.
-
-* They first choose a dish
-* They can also add number of servings of the dish (defaulted to 1)
-* Also users can't select the same dish twice, rather add more servings.
-
-The total number of dishes (i.e Number of dishes \* respective serving) should be greater or equal to the number of person selected in first step and a maximum of 10 is allowed.
-
-### Step 4
-
-On the final step, users should be able to review all their previous choices
-and click submit.
+* User is presented with a review of their order
+* They can go back and edit their order
 
 ### Notes
 
-* User can't proceed to next step unless they have valid inputs on the current step.
-* if their inputs are not valid, show appropriate validation errors.
-* At any step user can go back and change their preference on any previous step.
-* Finally when the user submit the form, just log the data on the console as we don't provide any back end for now.
+* User can't proceed without selecting number of people or adding any items to their order.
+* If user inputs are not valid, show appropriate validation errors.
 * Finer details of UX is left for you to decide.
 
 ## Submission

@@ -1,0 +1,106 @@
+{
+  "Appetizer": [
+    {
+      "id": 1,
+      "name": "Tempura",
+      "price": "￥800",
+      "imageURL": "./images/food/tempura.png"
+    },
+    {
+      "id": 2,
+      "name": "Gyoza",
+      "price": "￥700",
+      "imageURL": "./images/food/gyoza.png"
+    }
+  ],
+  "Nigiri": [
+    {
+      "id": 3,
+      "name": "Tuna",
+      "price": "￥500",
+      "imageURL": "./images/food/nigiri-tuna.png"
+    },
+    {
+      "id": 4,
+      "name": "Salmon",
+      "price": "￥600",
+      "imageURL": "./images/food/nigiri-salmon.png"
+    },
+    {
+      "id": 5,
+      "name": "Hamachi",
+      "price": "￥550",
+      "imageURL": "./images/food/nigiri-hamachi.png"
+    },
+    {
+      "id": 6,
+      "name": "Shrimp",
+      "price": "￥650",
+      "imageURL": "./images/food/nigiri-shrimp.png"
+    }
+  ],
+  "Maki": [
+    {
+      "id": 8,
+      "name": "California",
+      "price": "￥900",
+      "imageURL": "./images/food/maki-california.png"
+    },
+    {
+      "id": 9,
+      "name": "Spicy Tuna",
+      "price": "￥1,100",
+      "imageURL": "./images/food/maki-spicy-tuna.png"
+    },
+    {
+      "id": 10,
+      "name": "Philadelphia",
+      "price": "￥1,200",
+      "imageURL": "./images/food/maki-philadelphia.png"
+    },
+    {
+      "id": 11,
+      "name": "Rainbow",
+      "price": "￥1,500",
+      "imageURL": "./images/food/maki-rainbow.png"
+    },
+    {
+      "id": 12,
+      "name": "Dragon",
+      "price": "￥1,600",
+      "imageURL": "./images/food/maki-dragon.png"
+    },
+    {
+      "id": 13,
+      "name": "Unagi",
+      "price": "￥1,300",
+      "imageURL": "./images/food/maki-unagi.png"
+    }
+  ],
+  "Entree": [
+    {
+      "id": 14,
+      "name": "Chicken Teriyaki Bento",
+      "price": "￥1,700",
+      "imageURL": "./images/food/chicken-teriyaki-bento.png"
+    },
+    {
+      "id": 15,
+      "name": "Pork Katsu Bento",
+      "price": "￥1,800",
+      "imageURL": "./images/food/pork-katsu-bento.png"
+    },
+    {
+      "id": 16,
+      "name": "Tonkatsu Ramen",
+      "price": "￥1,400",
+      "imageURL": "./images/food/tonkatsu-ramen.png"
+    },
+    {
+      "id": 17,
+      "name": "Udon",
+      "price": "￥1,500",
+      "imageURL": "./images/food/udon.png"
+    }
+  ]
+}
