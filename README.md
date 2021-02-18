@@ -12,6 +12,7 @@ This assignment is aimed to help us assess your `React` skills.
   * [Step 1](#step-1)
   * [Step 2](#step-2)
   * [Step 3](#step-3)
+  * [Step 4](#step-4)
   * [Notes](#notes)
 * [Submission](#submission)
 * [FAQs](#faqs)
@@ -22,7 +23,7 @@ This assignment is aimed to help us assess your `React` skills.
 
 ### Must
 
-* Use `React` (preferred `Next.js`)
+* Use `React` (can use `CRA` but preferred `Next.js`)
 * Use ES6+
 * Write unit tests (any testing library, but preferred `jest`)
 * Make it responsive / mobile friendly
@@ -31,18 +32,18 @@ This assignment is aimed to help us assess your `React` skills.
 
 * Use a type system (preferred `Typescript` or `flow`)
 * Write integration tests
-* Use styled components (preferred `css modules` or `emotion`)
+* Use any style library (`css modules`, `emotion` or `style-components`(preferred))
 * Save form values to state or context
 
 ## Setup
 
-As this test is to evaluate basic `React` skills, we are not be focusing on tooling setup (webpack, babel, etc...).
+As this test is to evaluate basic `React` skills, we are not focusing on tooling setup (webpack, babel, etc...).
 
-So feel free to use [create react app](https://github.com/facebookincubator/create-react-app) or [create next app](https://nextjs.org/docs/api-reference/create-next-app) to jump start your development, although if not comfortable custom setup is also welcomed.
+So feel free to use [create react app](https://github.com/facebookincubator/create-react-app) or [nextJs](https://nextjs.org/docs/api-reference/create-next-app) to jump start your development, although if not comfortable custom setup is also welcomed.
 
 ## Description
 
-We want to make multi step form. This form is aimed to help user order food from a restaurant. The wireframes are available [at this link](https://www.figma.com/file/RsvCqxq86NkWDfW01G6gYa/Coding-Challenge?node-id=1%3A2) or in the [wireframes](/.wireframes) folder.
+We want you to make a multi step form. This form is aimed to help a user order food from a restaurant. The wireframes are available [at this link](https://www.figma.com/file/RsvCqxq86NkWDfW01G6gYa/Coding-Challenge?node-id=1%3A2) or in the [wireframes](/.wireframes) folder.
 
 Data is provided in the [data](./data) folder and images are provided in the [images](./images) folder. Fonts used are available at [Google Fonts](https://fonts.google.com/), and any additional icons are available at [Font Awesome](https://fontawesome.com/).
 
