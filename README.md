@@ -12,6 +12,7 @@ This assignment is aimed to help us assess your `React` skills.
   * [Step 1](#step-1)
   * [Step 2](#step-2)
   * [Step 3](#step-3)
+  * [Step 4](#step-4)
   * [Notes](#notes)
 * [Submission](#submission)
 * [FAQs](#faqs)
@@ -22,7 +23,7 @@ This assignment is aimed to help us assess your `React` skills.
 
 ### Must
 
-* Use `React` (preferred `Next.js`)
+* Use `React` (can use `CRA` but preferred `Next.js`)
 * Use ES6+
 * Write unit tests (any testing library, but preferred `jest`)
 * Make it responsive / mobile friendly
@@ -31,14 +32,14 @@ This assignment is aimed to help us assess your `React` skills.
 
 * Use a type system (preferred `Typescript` or `flow`)
 * Write integration tests
-* Use styled components (preferred `css modules` or `emotion`)
+* Use any style library (`css modules`, `emotion` or `style-components`(preferred))
 * Save form values to state or context
 
 ## Setup
 
-As this test is to evaluate basic `React` skills, we are not be focusing on tooling setup (webpack, babel, etc...).
+As this test is to evaluate basic `React` skills, we are not focusing on tooling setup (webpack, babel, etc...).
 
-So feel free to use [create react app](https://github.com/facebookincubator/create-react-app) or [create next app](https://nextjs.org/docs/api-reference/create-next-app) to jump start your development, although if not comfortable custom setup is also welcomed.
+So feel free to use [create react app](https://github.com/facebookincubator/create-react-app) or [nextJs](https://nextjs.org/docs/api-reference/create-next-app) to jump start your development, although if not comfortable custom setup is also welcomed.
 
 ## Description
 
