@@ -70,7 +70,7 @@ Data is provided in the [data](./data) folder and images are provided in the [im
 ## Submission
 
 * Submit a working link of your code repository (github / gitlab / bitbucket, etc.)
-* Submit a link of the deployed app (github.io / now / surge, etc.)
+* Submit a link of the deployed app (github.io / vercel / surge, etc.)
 
 ## FAQs
 
