@@ -25,14 +25,12 @@ This assignment is aimed to help us assess your `React` skills.
 
 * Use `React` (can use `CRA` but preferred `Next.js`)
 * Use ES6+
-* Write unit tests (any testing library, but preferred `jest`)
 * Make it responsive / mobile friendly
 
 ### Optional
 
 * Use a type system (preferred `Typescript` or `flow`)
-* Write integration tests
-* Use any style library (`css modules`, `emotion` or `style-components`(preferred))
+* Use any style library (`css modules`, `emotion` or `styled-components`(preferred))
 * Save form values to state or context
 
 ## Setup
