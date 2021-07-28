@@ -41,9 +41,9 @@ So feel free to use [create react app](https://github.com/facebookincubator/crea
 
 ## Description
 
-We want you to make a multi step form. This form is aimed to help a user order food from a restaurant. The wireframes are available [at this link](https://www.figma.com/file/RsvCqxq86NkWDfW01G6gYa/Coding-Challenge?node-id=1%3A2) or in the [wireframes](/.wireframes) folder.
+We want you to make a multi step form. This form is aimed to help a user order food from a restaurant. The wireframes are available [at this link](https://www.figma.com/file/RsvCqxq86NkWDfW01G6gYa/Coding-Challenge?node-id=1%3A2) or in the [wireframes](https://github.com/zenportinc/frontend-react-challenge/tree/master/wireframes) folder.
 
-Data is provided in the [data](./data) folder and images are provided in the [images](./images) folder. Fonts used are available at [Google Fonts](https://fonts.google.com/), and any additional icons are available at [Font Awesome](https://fontawesome.com/).
+Data is provided in the [data](https://github.com/zenportinc/frontend-react-challenge/tree/master/data) folder and images are provided in the [images](https://github.com/zenportinc/frontend-react-challenge/tree/master/images) folder. Fonts used are available at [Google Fonts](https://fonts.google.com/), and any additional icons are available at [Font Awesome](https://fontawesome.com/).
 
 ### Step 1
 
