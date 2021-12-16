@@ -52,6 +52,8 @@ Data is provided in the [data folder](https://github.com/zenportinc/frontend-rea
 ### Notes
 
 - User can't proceed if there are no items in their order.
+- Please commit after each step so progress is visible
+- This shouldn't take more than 30 minutes
 
 ## Submission
 
