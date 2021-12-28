@@ -6,7 +6,6 @@ import type { NextPage } from 'next';
 import ZenportEats from '../modules/ZenportEats';
 
 const Home: NextPage = () => {
-  const { setPage } = useZenportEats();
   return (
     <>
       <Head>
@@ -14,13 +13,9 @@ const Home: NextPage = () => {
         <meta name="description" content="A zenport App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header
-        onIconClick={() => {
-          setPage(1);
-        }}
-      />
 
       <ZenportEatsProvider>
+        <Header />
         <ZenportEats />
       </ZenportEatsProvider>
     </>

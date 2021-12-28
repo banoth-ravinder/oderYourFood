@@ -17,6 +17,8 @@ interface ZenportEatsContextProps {
   setOrder: Dispatch<SetStateAction<Order>>;
   selectedIdx: number;
   setSelectedIdx: Dispatch<SetStateAction<number>>;
+  selectedTab: string | null;
+  setSelectedTab: Dispatch<SetStateAction<string | null>>;
   handleFoodItemAdd: (foodItem: FoodMenuItem) => void;
   handlePersonDelete: (personIdx: number) => void;
   handlePersonAdd: () => void;
@@ -32,9 +34,11 @@ const ZenportEatsContext = createContext<ZenportEatsContextProps>({
   page: 1,
   setPage: () => {},
   order: defaultOrder,
+  selectedTab: null,
   setOrder: () => {},
   selectedIdx: 0,
   setSelectedIdx: () => {},
+  setSelectedTab: () => {},
   handleFoodItemAdd: () => {},
   handlePersonDelete: () => {},
   handlePersonAdd: () => {},
@@ -48,6 +52,7 @@ export const ZenportEatsProvider = ({ children }: Props) => {
   const [page, setPage] = useState(1);
   const [order, setOrder] = useState<Order>(defaultOrder);
   const [selectedIdx, setSelectedIdx] = useState(0);
+  const [selectedTab, setSelectedTab] = useState<string | null>(null);
 
   const handleFoodItemAdd = (foodItem: FoodMenuItem) => {
     const newOrders = [...order.orders];
@@ -69,29 +74,32 @@ export const ZenportEatsProvider = ({ children }: Props) => {
     });
   };
 
-  const handlePersonDelete = useCallback((personIdx: number) => {
-    const newOrder = {
-      ...order,
-      orders: order.orders.filter((_, orderIdx) => orderIdx !== personIdx),
-    };
-
-    setOrder(newOrder);
-  }, []);
+  const handlePersonDelete = useCallback(
+    (personIdx: number) => {
+      const newOrder = {
+        ...order,
+        orders: order.orders.filter((_, orderIdx) => orderIdx !== personIdx),
+      };
+      setOrder(newOrder);
+    },
+    [order]
+  );
 
   const handlePersonAdd = useCallback(() => {
     const newOrder = {
       ...order,
+      numPeople: order.numPeople + 1,
       orders: [
         ...order.orders,
         {
-          name: `Person ${order.orders.length + 1}`,
+          name: `Person ${order.numPeople + 1}`,
           items: [],
         },
       ],
     };
 
     setOrder(newOrder);
-  }, []);
+  }, [order]);
 
   return (
     <ZenportEatsContext.Provider
@@ -102,6 +110,8 @@ export const ZenportEatsProvider = ({ children }: Props) => {
         setOrder,
         selectedIdx,
         setSelectedIdx,
+        selectedTab,
+        setSelectedTab,
         handleFoodItemAdd,
         handlePersonDelete,
         handlePersonAdd,

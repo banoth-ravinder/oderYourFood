@@ -3,7 +3,7 @@ import { TabPaneImageStyle, TabsStyle } from './styles';
 import { Tabs, Typography } from 'antd';
 
 import Image from 'next/image';
-import { useState } from 'react';
+import { useZenportEats } from '@modules/ZenportEats/hooks/useZenportEats';
 
 const { TabPane } = Tabs;
 
@@ -15,7 +15,7 @@ const images = {
 };
 
 const FoodTypeTabs = () => {
-  const [selectedTab, setSelectedTab] = useState<string | null>(null);
+  const { selectedTab, setSelectedTab } = useZenportEats();
 
   return (
     <TabsStyle

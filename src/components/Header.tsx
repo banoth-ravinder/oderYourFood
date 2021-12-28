@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import styled from 'styled-components';
 
+import { useZenportEats } from '@modules/ZenportEats/hooks/useZenportEats';
+
 const HeaderStyle = styled.div`
   padding: 1rem 3rem;
   position: relative;
@@ -19,14 +21,23 @@ const LogoWrapperStyle = styled.span`
   }
 `;
 
-interface Props {
-  onIconClick: () => void;
-}
+const defaultOrder = {
+  numPeople: 0,
+  orders: [],
+};
 
-const Header = ({ onIconClick }: Props) => {
+const Header = () => {
+  const { setPage, setOrder, setSelectedIdx, setSelectedTab } = useZenportEats();
   return (
     <HeaderStyle>
-      <LogoWrapperStyle onClick={onIconClick}>
+      <LogoWrapperStyle
+        onClick={() => {
+          setPage(1);
+          setOrder(defaultOrder);
+          setSelectedIdx(0);
+          setSelectedTab(null);
+        }}
+      >
         <Image src="/logo/Zenport logo - blue 1.png" alt="" width={31} height={36} />
         <Image
           src="/logo/Zenport Eats Inc.@3x.png"
